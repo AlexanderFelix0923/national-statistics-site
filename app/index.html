@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Atlas in Numbers — National Statistics Explorer</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#/">Atlas <span>in</span> Numbers</a>
+  <nav>
+    <a href="#/" data-nav="overview">Overview</a>
+    <a href="#/explore" data-nav="explore">Explore</a>
+    <a href="#/rankings" data-nav="rankings">Rankings</a>
+    <a href="#/compare" data-nav="compare">Compare</a>
+  </nav>
+</header>
+<main id="view"></main>
+<footer class="footer">
+  <p>Atlas in Numbers — rounded public statistics for ~2024 (World Bank · UN Population Division · IMF), computed locally in your browser.</p>
+  <p><button class="btn small ghost" data-action="reset">Reset favourites &amp; compare tray</button></p>
+</footer>
+<script src="data.js"></script>
+<script src="format.js"></script>
+<script src="store.js"></script>
+<script src="charts.js"></script>
+<script src="views-main.js"></script>
+<script src="views-explore.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
